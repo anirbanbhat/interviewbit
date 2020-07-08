@@ -1,4 +1,10 @@
-package org.anirban.interviewbit.math;import jdk.nashorn.internal.runtime.FindProperty;
+package org.anirban.interviewbit.math;
+
+/**
+ * 
+ * @author Anirban Bhattacherji
+ *
+ */
 
 public class BinaryRepresentation {
 
