@@ -45,17 +45,17 @@ public class SumOfPairwiseHammingDistance {
 	}
 
 	public static int hammingDistance(final List<Integer> A) {
-        long sum=0;
-        long n=A.size();
-        int M = 1000000007;
-        for(long i=0;i<31;i++) {
+        long sum = 0;
+        long n = A.size();
+        //int M = 1000000007;
+        for(long i = 0; i < 31; i++) {
             long counter=0;
 
-            for(int j=0;j<n;j++) {
-            	System.out.println("j: " + j + "\ti: " + i);
-            	System.out.print((long)A.get(j));
-            	System.out.println("\t" + (long)(1<<i));
-            	System.out.println(((long)A.get(j) & (long)(1<<i)) > 0);
+            for(int j = 0; j < n; j++) {
+            	//System.out.println("j: " + j + "\ti: " + i);
+            	//System.out.print((long)A.get(j));
+            	//System.out.println("\t" + (long)(1<<i));
+            	//System.out.println(((long)A.get(j) & (long)(1<<i)) > 0);
             	// Checking each bit if it is 1. If there are 5 numbers, and say 3 of them has 
             	// first bit is 1, then counter is 3.
                 if(((long)A.get(j) & (long)(1<<i)) > 0) {
@@ -65,9 +65,9 @@ public class SumOfPairwiseHammingDistance {
             // With above example 3 of the numbers' first bit = 1 and 2 of those first bit = 0.
             // So, permutation of pairwise difference of first bit = (3 X 2) = 6.
             // i.e. counter * (n-counter)
-            sum = (sum + counter * (n-counter))%M;
+            sum = (sum + counter * (n-counter));//%M;
 
         }
-        return (int) (sum << 1)%M;
+        return (int) (sum << 1);//%M;
     }
 }
