@@ -25,7 +25,7 @@ import java.util.List;
  * Explanation : 5 and 3 are distance 2 apart. So size of the base = 2. Height of container = min(5, 3) = 3. 
  * So total area = 3 * 2 = 6
  * 
- * @author ebaianh
+ * @author Anirban Bhattacherji
  *
  */
 

@@ -21,7 +21,7 @@ package org.anirban.interviewbit.math;
  * 2 possible routes : (0, 0) -> (0, 1) -> (1, 1) 
  *               OR  : (0, 0) -> (1, 0) -> (1, 1)
  * 
- * @author ebaianh
+ * @author Anirban Bhattacherji
  *
  */
 

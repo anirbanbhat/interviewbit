@@ -20,7 +20,7 @@ package org.anirban.interviewbit.math;
  *     
  *     AB -> 28 
  * 
- * @author ebaianh
+ * @author Anirban Bhattacherji
  *
  */
 

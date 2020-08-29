@@ -26,7 +26,7 @@ import java.util.List;
  * 
  * [4, 0, 2, 1, 3] => [arr[4], arr[0], arr[2], arr[1], arr[3]] => [3, 4, 2, 0, 1]
  * 
- * @author ebaianh
+ * @author Anirban Bhattacherji
  *
  */
 

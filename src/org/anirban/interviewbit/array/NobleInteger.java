@@ -11,7 +11,7 @@ import java.util.List;
  * than p in the array equals to p
  * If such an integer is found return 1 else return -1.
  * 
- * @author ebaianh
+ * @author Anirban Bhattacherji
  *
  */
 

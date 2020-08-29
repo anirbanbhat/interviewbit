@@ -33,7 +33,7 @@ The outermost rectangle is formed by A, then the next outermost is formed by A-1
 
 You will be given A as an argument to the function you need to implement, and you need to return a 2D array.
  * 
- * @author ebaianh
+ * @author Anirban Bhattacherji
  *
  */
 

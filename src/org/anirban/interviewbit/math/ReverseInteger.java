@@ -17,7 +17,7 @@ package org.anirban.interviewbit.math;
  * 
  * Return 0 if the result overflows and does not fit in a 32 bit signed integer
  * 
- * @author ebaianh
+ * @author Anirban Bhattacherji
  *
  */
 
